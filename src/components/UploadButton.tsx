@@ -142,7 +142,7 @@ const UploadDropzone = () => {
 };
 
 const UploadButton = () => {
-  const [isOpen, setIsOpen] = useState<Boolean>(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <Dialog
