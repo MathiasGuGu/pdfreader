@@ -19,7 +19,7 @@ const Navbar = () => {
       <MaxWidthWrapper>
         <div className="flex h-14 items-center justify-between border-b border-zinc-200">
           <Link href={"/"} className="flex z-40 font-semibold">
-            <span>Quill.</span>
+            <span>Magnify.</span>
           </Link>
 
           <MobileNav isAuth={!!user}></MobileNav>
@@ -54,6 +54,15 @@ const Navbar = () => {
               </>
             ) : (
               <>
+                <Link
+                  href={"/pricing"}
+                  className={buttonVariants({
+                    variant: "ghost",
+                    size: "sm",
+                  })}
+                >
+                  Paid Plans
+                </Link>
                 <Link
                   href={"/dashboard"}
                   className={buttonVariants({

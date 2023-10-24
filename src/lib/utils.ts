@@ -13,8 +13,8 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = "Quill - Easily read and write to your PDF",
-  description = "Quill is an Open Source Software to make chatting to your PDF files Easy",
+  title = "Magnify - Easily read and write to your PDF",
+  description = "Magnify is an Open Source Software to make chatting to your PDF files Easy",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
   noIndex = false,
