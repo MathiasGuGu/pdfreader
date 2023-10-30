@@ -1,8 +1,8 @@
 import { ReactNode, createContext, useRef, useState } from "react";
 import { useToast } from "../ui/use-toast";
-import { useMutation } from "@tanstack/react-query";
 import { trpc } from "@/app/_trpc/client";
 import { INFINITE_QUERY_LIMIT } from "@/config/infinite-query";
+import { useMutation } from "@tanstack/react-query";
 
 type StreamResponse = {
   addMessage: () => void;

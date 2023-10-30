@@ -16,8 +16,6 @@ const page = async () => {
     },
   });
 
-  console.log(dbUser);
-
   if (!dbUser) redirect("/auth-callback?origin=dashboard");
 
   const subscriptionPlan = await getUserSubscriptionPlan();
